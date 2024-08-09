@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "Inter";
+  src: url(../docs/assets/fonts/Inter-VariableFont_slnt\wght.ttf) format("ttf");
+  font-weight: 100 1000;
+}
+
+
+.main {
+  @apply bg-primarygray-800 w-80 flex flex-col justify-between items-center py-12 rounded-lg;
+}
+.cardTitle{
+  @apply text-lg font-bold;
+}
+.cardImage{
+  @apply rounded-full size-24 mb-5
+}
+.cardLocation{
+  @apply text-secondaryGreen text-sm mt-1
+}
+.cardJob{
+@apply text-xs my-5
+}
+.linkItem {
+  @apply block text-center text-xs hover:text-primarygray-900 font-semibold bg-primarygray-700 hover:bg-secondaryGreen w-9/12 my-2 py-2.5  rounded-sm;
+}
+.linksContainer{
+  @apply w-full flex flex-col items-center
+}
