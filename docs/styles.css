@@ -685,6 +685,9 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 600;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
 }
 
 .linkItem:hover {

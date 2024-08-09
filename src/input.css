@@ -24,7 +24,7 @@
 @apply text-xs my-5
 }
 .linkItem {
-  @apply block text-center text-xs hover:text-primarygray-900 font-semibold bg-primarygray-700 hover:bg-secondaryGreen w-9/12 my-2 py-2.5  rounded-sm;
+  @apply block text-center text-xs hover:text-primarygray-900 font-semibold bg-primarygray-700 hover:bg-secondaryGreen w-9/12 my-2 py-2.5  rounded-sm transition-all duration-500;
 }
 .linksContainer{
   @apply w-full flex flex-col items-center
